@@ -5,7 +5,7 @@ class Vertex
     private:
         float x, y;
     public: 
-        Vertex(float input_x, float input_y);
+        Vertex(float x, float y);
         float getX();
         float getY();
 };

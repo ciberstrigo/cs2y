@@ -1,19 +1,17 @@
-#include <iostream>
-using namespace std;
+#include "vertex.h"
 
-class Vertex
+Vertex::Vertex(float x, float y)
 {
-    private:
-        float x, y;
-    public: 
-        Vertex(float x, float y) {
-            this->x = x;
-            this->y = y;
-        }
-        float getX() {
-            return x;
-        }
-        float getY() {
-            return y;
-        }
-};
+    this->x = x;
+    this->y = y;
+}
+
+float Vertex::getX()
+{
+    return x;
+}
+
+float Vertex::getY()
+{
+    return y;
+}
